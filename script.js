@@ -242,7 +242,7 @@ for(const btn of btns){
 //history
 
 const callBtns = document.getElementsByClassName('history-btn');
-//const historyContainer = document.getElementById('')
+
 for(const btn of callBtns){
     btn.addEventListener('click', function () {
       const historyContainer = document.getElementById('history-container');
